@@ -14,8 +14,9 @@ Soosa is a Discord bot written in Go. It has interactive games, an economy syste
 ### Music
   - Audio streaming natively from any Subsonic API-compatible server (like Navidrome).
   - Queue management, player controls, and nowplaying display.
-- Permissions: A modular permission node system for commands.
-- Admin tools (kick, ban, mute, etc.)
+### Admin
+  - Permissions: A modular permission node system for commands.
+  - Admin tools (kick, ban, mute, etc.)
 
 ## Installation
 
