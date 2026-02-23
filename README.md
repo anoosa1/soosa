@@ -6,16 +6,14 @@ Soosa is a Discord bot written in Go. It has interactive games, an economy syste
 
 ## Features
 
-- Games
+### Games
   - Poker: Texas Hold'em with turn-based logic, betting, and an UI using Discord buttons and ephemeral messages.
   - Blackjack: Multi/Singleplayer Blackjack.
   - Wordle: Play Wordle directly natively in Discord with ephemeral progress tracking.
   - Integrated currency system for betting and rewards.
-
-- Music
+### Music
   - Audio streaming natively from any Subsonic API-compatible server (like Navidrome).
   - Queue management, player controls, and nowplaying display.
-
 - Permissions: A modular permission node system for commands.
 - Admin tools (kick, ban, mute, etc.)
 
