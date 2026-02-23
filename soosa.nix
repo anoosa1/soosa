@@ -57,6 +57,7 @@
   };
 
   perSystem = { pkgs, lib, ... }: {
+    packages.default = self.packages.${pkgs.system}.soosa;
     packages.soosa = pkgs.buildGoModule {
       pname = "soosa";
       version = "0.1.0";
